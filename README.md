@@ -1,24 +1,4 @@
-# portfolio
+# Portfolio
 
-## Project setup
-```
-npm install
-```
+Este projeto é destinado ao desenvolvimento de um portfolio web onde serão documentados projetos, experiências e conquistas pessoais.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
