@@ -1,26 +1,41 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="page">
+    <pheader />
+    <pmenu />
+    <pcontent />
+    <pfooter />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import pheader from "@/components/template/Header.vue";
+import pmenu from "@/components/template/Menu.vue";
+import pcontent from "@/components/template/Content.vue";
+import pfooter from "@/components/template/Footer.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { pheader, pmenu, pcontent, pfooter },
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+  height: 100vh;
+}
+
+#page {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 60px 1fr 40px;
+  grid-template-columns: 250px 1fr;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "menu footer";
 }
 </style>
