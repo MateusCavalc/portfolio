@@ -36,4 +36,12 @@ const router = createRouter({
     routes: routes
 })
 
+router.beforeEach((to, from, next) => {
+    if (to.path.includes('/portfolio')) {
+        next({ name: 'home' })
+    } else {
+        next()
+    }
+})
+
 export default router
