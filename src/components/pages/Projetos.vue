@@ -17,7 +17,7 @@
           <hr />
           <p>
             Este portfolio foi desenvolvido como um projeto cujo objetivo é
-            aplicar conceitos de FrontEnd.
+            aplicar conceitos de FrontEnd por meio do framework VueJS.
           </p>
           <div class="proj-icons">
             <font-awesome-icon icon="fa-brands fa-vuejs" />
@@ -104,6 +104,7 @@
                 </g>
               </g>
             </svg>
+            <font-awesome-icon icon="fa-brands fa-docker" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"

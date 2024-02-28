@@ -17,13 +17,19 @@
         escaláveis e seguros. Tenho experiência sólida em tecnologias como
         ASP.NET e NodeJS, bem como conhecimento em ferramentas e frameworks
         relevantes para o desenvolvimento backend e implantação de sistemas.
+        Atualmente, venho estudando frameworks como VueJS, NextJS e Angular, com
+        o objetivo de expandir minhas aplicações e construir ecossistemas mais
+        ricos, focando na implementação de padrões eficientes de projeto.
       </p>
       <p>
-        Tirando o contexto profissional, sou uma pessoa ativa e bastante
-        comunicativa. Desde pequeno sou apaixonado por música e, no tempo livre,
-        gosto de gravar releituras de grandes sambas conhecidos. Também sou
-        atleta de Cheerleading competitivo e participo de competições no alto
-        rendimento do esporte, no qual fui vice-campeão pan-americano, em 2022.
+        Tirando o contexto profissional, sou uma pessoa comunicativa, proativa e
+        curiosa. Tenho um gosto particular por viagens e metas pessoais de
+        conhecer países, pessoas e suas culturas. Desde pequeno sou apaixonado
+        por música e, no tempo livre, gosto de gravar releituras de grandes
+        sambas conhecidos. Além disso, sou atleta de Cheerleading competitivo e
+        participo de competições no alto rendimento do esporte, onde fui
+        vice-campeão Pan-americano pela Seleção Brasileira de Cheerleading em
+        2022.
       </p>
       <div class="images">
         <img src="@/assets/imgs/pan.jpeg" alt="pan" />

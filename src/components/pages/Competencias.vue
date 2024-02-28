@@ -39,7 +39,7 @@
           </div>
           <div class="comp-tec">
             <font-awesome-icon icon="arrow-turn-up" class="fa-rotate-90" />
-            <span>NodeJS, VueJS, NestJS</span>
+            <span>NodeJS, VueJS | NextJS | Angular, Express | NestJS</span>
           </div>
         </div>
         <div>
