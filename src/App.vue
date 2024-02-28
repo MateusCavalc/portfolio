@@ -31,7 +31,7 @@ export default {
 #page {
   height: 100%;
   display: grid;
-  grid-template-rows: 60px 1fr 40px;
+  grid-template-rows: 80px 1fr 40px;
   grid-template-columns: 250px 1fr;
   grid-template-areas:
     "header header"

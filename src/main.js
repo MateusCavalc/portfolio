@@ -10,11 +10,25 @@ import BootstrapVue from 'bootstrap-vue-3'
 import router from './config/router'
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCheckCircle, faCaretRight, faArrowTurnUp, faCertificate, faArrowUpRightFromSquare, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
-import { faUser, faCompass } from "@fortawesome/free-regular-svg-icons";
+import {
+    faCheckCircle, faCaretRight, faArrowTurnUp,
+    faCertificate, faArrowUpRightFromSquare, faLaptopCode,
+    faPhone,
+    faDatabase,
+    faUserLock
+} from "@fortawesome/free-solid-svg-icons";
+import { faUser, faCompass, faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faCss3Alt, faGithub, faHtml5, faJs, faLinkedinIn, faVuejs } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faUser, faCompass, faCheckCircle, faCaretRight, faArrowTurnUp, faCertificate, faArrowUpRightFromSquare, faLaptopCode)
+library.add(
+    faUser, faCompass, faCheckCircle,
+    faCaretRight, faArrowTurnUp, faCertificate,
+    faArrowUpRightFromSquare, faLaptopCode, faGithub,
+    faLinkedinIn, faEnvelope, faPhone,
+    faVuejs, faDatabase, faUserLock,
+    faHtml5, faCss3Alt, faJs
+)
 
 const app = createApp(App)
 

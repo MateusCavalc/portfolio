@@ -94,7 +94,7 @@ article {
   border-radius: 8px;
 }
 
-img {
+.sobremim img {
   height: 400px;
   border-radius: 8px;
 }
