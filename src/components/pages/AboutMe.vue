@@ -32,8 +32,8 @@
         2022.
       </p>
       <div class="images">
-        <img src="@/assets/imgs/pan.jpeg" alt="pan" />
-        <img src="@/assets/imgs/ny.jpeg" alt="ny" />
+        <img src="@/assets/imgs/aboutme/pan.jpeg" alt="pan" />
+        <img src="@/assets/imgs/aboutme/ny.jpeg" alt="ny" />
       </div>
     </article>
   </div>

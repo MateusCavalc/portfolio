@@ -18,7 +18,7 @@ import {
     faUserLock
 } from "@fortawesome/free-solid-svg-icons";
 import { faUser, faCompass, faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faCss3Alt, faDocker, faGithub, faHtml5, faJs, faLinkedinIn, faVuejs } from "@fortawesome/free-brands-svg-icons"
+import { faBootstrap, faCss3Alt, faDocker, faGithub, faHtml5, faJs, faLinkedinIn, faVuejs } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(
@@ -28,7 +28,7 @@ library.add(
     faLinkedinIn, faEnvelope, faPhone,
     faVuejs, faDatabase, faUserLock,
     faHtml5, faCss3Alt, faJs,
-    faDocker
+    faDocker, faBootstrap
 )
 
 const app = createApp(App)
