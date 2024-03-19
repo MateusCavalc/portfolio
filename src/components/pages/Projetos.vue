@@ -24,8 +24,8 @@
             </div>
           </div>
           <div class="card-images">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
+            <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner rounded-2">
                 <div class="carousel-item active">
                   <img src="https://placehold.co/200X150" class="d-block w-100" alt="frontpage">
                 </div>
@@ -101,14 +101,36 @@
               <font-awesome-icon icon="user-lock" />
             </div>
           </div>
-          <div class="card-images">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="https://placehold.co/200X150" class="d-block w-100" alt="frontpage">
-                </div>
+          <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-2">
+              <div class="carousel-item active">
+                <img src="../../assets/imgs/projects/knowledge-base/login.png" class="d-block w-100" alt="login">
+              </div>
+              <div class="carousel-item">
+                <img src="../../assets/imgs/projects/knowledge-base/stats.png" class="d-block w-100" alt="stats">
+              </div>
+              <div class="carousel-item">
+                <img src="../../assets/imgs/projects/knowledge-base/tree.png" class="d-block w-100" alt="tree">
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
         <div class="project-card">
@@ -181,16 +203,16 @@
             </div>
           </div>
           <div class="card-images">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
                   aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
                   aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
                   aria-label="Slide 3"></button>
               </div>
-              <div class="carousel-inner">
+              <div class="carousel-inner rounded-2">
                 <div class="carousel-item active">
                   <img src="../../assets/imgs/projects/dream-commerce/frontpage.png" class="d-block w-100"
                     alt="frontpage">
@@ -203,12 +225,12 @@
                     alt="frontpage2">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -241,8 +263,8 @@
             </div>
           </div>
           <div class="card-images">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
+            <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner rounded-2">
                 <div class="carousel-item active">
                   <img src="https://placehold.co/200X150" class="d-block w-100" alt="frontpage">
                 </div>
@@ -272,8 +294,8 @@
             </div>
           </div>
           <div class="card-images">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
+            <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner rounded-2">
                 <div class="carousel-item active">
                   <img src="https://placehold.co/200X150" class="d-block w-100" alt="frontpage">
                 </div>
@@ -330,8 +352,8 @@
             </div>
           </div>
           <div class="card-images">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
+            <div id="carouselExampleIndicators6" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner rounded-2">
                 <div class="carousel-item active">
                   <img src="https://placehold.co/200X150" class="d-block w-100" alt="frontpage">
                 </div>
@@ -357,8 +379,8 @@
             </div>
           </div>
           <div class="card-images">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
+            <div id="carouselExampleIndicators6" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner rounded-2">
                 <div class="carousel-item active">
                   <img src="https://placehold.co/200X150" class="d-block w-100" alt="frontpage">
                 </div>
