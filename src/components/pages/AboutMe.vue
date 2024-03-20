@@ -32,8 +32,8 @@
         2022.
       </p>
       <div class="images">
-        <img src="@/assets/imgs/aboutme/pan.jpeg" alt="pan" />
-        <img src="@/assets/imgs/aboutme/ny.jpeg" alt="ny" />
+        <img class="img-fluid" src="@/assets/imgs/aboutme/pan.jpeg" alt="pan" />
+        <img class="img-fluid" src="@/assets/imgs/aboutme/ny.jpeg" alt="ny" />
       </div>
     </article>
   </div>
@@ -47,7 +47,6 @@ export default {
 
 <style>
 .sobremim {
-  height: 100%;
   padding: 10px;
 }
 
@@ -101,7 +100,8 @@ article {
 }
 
 .sobremim img {
-  height: 400px;
+  max-width: 45%;
+  height: auto;
   border-radius: 8px;
 }
 </style>

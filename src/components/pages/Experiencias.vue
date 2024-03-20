@@ -50,7 +50,6 @@ export default {
 
 <style>
 .exp {
-  height: 100%;
   padding: 10px;
 }
 

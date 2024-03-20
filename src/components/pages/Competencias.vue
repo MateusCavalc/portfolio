@@ -12,20 +12,16 @@
         </div>
         <div>
           <font-awesome-icon icon="caret-right" />
-          <span
-            >Experiência profissional com linguagens <strong>Java</strong>,
+          <span>Experiência profissional com linguagens <strong>Java</strong>,
             <strong>JavaScript</strong>, <strong>C</strong>,
             <strong>C++</strong>, <strong>C#</strong> e
-            <strong>Python</strong>.</span
-          >
+            <strong>Python</strong>.</span>
         </div>
         <div>
           <div class="comp-desc">
             <font-awesome-icon icon="caret-right" />
-            <span
-              >Desenvolvimento de API's, com base em autenticação por meio de
-              JWT.</span
-            >
+            <span>Desenvolvimento de API's, com base em autenticação por meio de
+              JWT.</span>
           </div>
           <div class="comp-tec">
             <font-awesome-icon icon="arrow-turn-up" class="fa-rotate-90" />
@@ -95,10 +91,8 @@
         <div>
           <div class="comp-desc">
             <font-awesome-icon icon="caret-right" />
-            <span
-              >Administração de ambientes isolados e ferramentas de orquestração
-              de contêineres.</span
-            >
+            <span>Administração de ambientes isolados e ferramentas de orquestração
+              de contêineres.</span>
           </div>
           <div class="comp-tec">
             <font-awesome-icon icon="arrow-turn-up" class="fa-rotate-90" />
@@ -117,11 +111,9 @@
         </div>
         <div>
           <font-awesome-icon icon="caret-right" />
-          <span
-            >Experiência acadêmica nas áreas de aprendizagem de máquina, visão
+          <span>Experiência acadêmica nas áreas de aprendizagem de máquina, visão
             computacional, teste de intrusão e análise de
-            vulnerabilidades.</span
-          >
+            vulnerabilidades.</span>
         </div>
       </section>
     </article>
@@ -136,7 +128,6 @@ export default {
 
 <style>
 .comp {
-  height: 100%;
   padding: 10px;
 }
 
@@ -156,7 +147,7 @@ export default {
   margin: 0 10px;
 }
 
-.comp .skills > div {
+.comp .skills>div {
   margin-bottom: 10px;
 }
 
