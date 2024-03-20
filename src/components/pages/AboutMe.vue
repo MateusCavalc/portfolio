@@ -104,4 +104,20 @@ article {
   height: auto;
   border-radius: 8px;
 }
+
+/* lg >= 992px */
+@media (max-width: 992px) {
+  .sobremim .title svg {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .sobremim h1 {
+    font-size: 1.5em;
+  }
+
+  .sobremim p {
+    font-size: 0.8em;
+  }
+}
 </style>

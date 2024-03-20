@@ -156,4 +156,20 @@ export default {
   padding: 5px;
   border-radius: 8px;
 }
+
+/* lg >= 992px */
+@media (max-width: 992px) {
+  .comp .title svg {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .comp h1 {
+    font-size: 1.5em;
+  }
+
+  .comp .skills {
+    font-size: 0.9em;
+  }
+}
 </style>

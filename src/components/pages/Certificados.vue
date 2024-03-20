@@ -108,4 +108,24 @@ export default {
 .certs .cert-card svg {
   height: 20px;
 }
+
+/* lg >= 992px */
+@media (max-width: 992px) {
+  .certs .title svg {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .certs h1 {
+    font-size: 1.5em;
+  }
+
+  .certs h4 {
+    font-size: 1em;
+  }
+
+  .certs p {
+    font-size: 0.8em;
+  }
+}
 </style>

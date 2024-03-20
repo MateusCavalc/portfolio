@@ -1,9 +1,9 @@
 <template>
   <div class="header">
     <span>Meu Portfolio</span>
+    <img src="@/assets/imgs/logo.png" alt="logo" class="rounded-3" />
     <div class="links">
-      <span class="phone"
-        >+55 (61) 98587-4816 <font-awesome-icon icon="phone" />
+      <span class="phone">+55 (61) 98587-4816 <font-awesome-icon icon="phone" />
       </span>
       <a href="https://github.com/MateusCavalc">
         <font-awesome-icon icon="fa-brands fa-github" />
@@ -38,11 +38,18 @@ export default {
   border-bottom: 1px solid #fff;
 }
 
-.header > span {
+.header>span {
   margin-left: 20px;
   font-size: 1.5em;
 
   justify-self: self-start;
+}
+
+.header>img {
+  display: none;
+
+  height: 50px;
+  margin-left: 10px;
 }
 
 .header .links {
@@ -71,5 +78,15 @@ export default {
 
 .header .links svg {
   height: 30px;
+}
+
+@media (max-width: 600px) {
+  .header>span {
+    display: none;
+  }
+
+  .header>img {
+    display: block;
+  }
 }
 </style>

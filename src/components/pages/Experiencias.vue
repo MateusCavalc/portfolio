@@ -67,4 +67,24 @@ export default {
   padding: 10px;
   margin-bottom: 20px;
 }
+
+/* lg >= 992px */
+@media (max-width: 992px) {
+  .exp .title svg {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .exp h1 {
+    font-size: 1.5em;
+  }
+
+  .exp h3 {
+    font-size: 1.2em;
+  }
+
+  .exp p {
+    font-size: 0.8em;
+  }
+}
 </style>
