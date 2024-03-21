@@ -6,7 +6,7 @@ read -p "> Commit message: " commit_msg
 
 # git stuff in main
 git add .
-git commit -am $commit_msg
+git commit -am $commit_msg|| { echo 'my_command failed' ; exit 1; }
 git push -u origin main
 
 # build application
