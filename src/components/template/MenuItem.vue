@@ -1,5 +1,5 @@
 <template>
-    <a class="menu-item text-decoration-none cursor-pointer user-select-none h-10 px-1 py-2 d-flex justify-content-center justify-content-lg-start align-items-center rounded-2 hover:bg-[#495057] hover:text-[#DEE2E6] active:bg-[#495057] active:text-[#DEE2E6]"
+    <a class="menu-item text-decoration-none cursor-pointer user-select-none px-1 py-2 d-flex justify-content-center justify-content-lg-start align-items-center rounded-2"
         :class="{ 'active': active }">
         <font-awesome-icon class="mr-2" :icon="icon" />
         <span class="d-none d-lg-inline-block">{{ label }}</span>
@@ -56,6 +56,12 @@ export default {
 @media (max-width: 992px) {
     .menu-item svg {
         margin-right: 0
+    }
+}
+
+@media (max-width: 600px) {
+    .menu nav {
+        flex-direction: row;
     }
 }
 </style>

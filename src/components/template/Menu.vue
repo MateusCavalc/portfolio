@@ -1,6 +1,6 @@
 <template>
   <aside class="menu">
-    <nav class="h-100 w-100 p-2 d-flex flex-column">
+    <nav class="h-100 w-100 p-2">
 
       <router-link :to="{ name: 'home' }">
         <menu-item :active="activeItem === 'aboutme' || hoverItem == 'aboutme'" @click="activeItem = 'aboutme'"
@@ -60,5 +60,21 @@ export default {
 
 .menu a {
   text-decoration: none;
+}
+
+.menu nav {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .menu nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .menu a {
+    margin: 0 2px;
+  }
 }
 </style>

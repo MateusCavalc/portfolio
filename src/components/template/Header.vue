@@ -80,6 +80,15 @@ export default {
   height: 30px;
 }
 
+.header .links svg,
+.header .links span {
+  transition-duration: 500ms;
+}
+
+.header .links a:hover>svg {
+  scale: 1.2;
+}
+
 @media (max-width: 600px) {
   .header>span {
     display: none;
@@ -87,6 +96,14 @@ export default {
 
   .header>img {
     display: block;
+  }
+
+  .header .links span {
+    font-size: 0.7em;
+  }
+
+  .header .links svg {
+    height: 20px;
   }
 }
 </style>

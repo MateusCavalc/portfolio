@@ -31,12 +31,16 @@ export default {
 #page {
   height: 100%;
   display: grid;
-  grid-template-rows: 80px minmax(0, 1fr) 40px;
   grid-template-columns: 220px 1fr;
+  grid-template-rows: 80px minmax(0, 1fr) 40px;
   grid-template-areas:
     "header header"
     "menu content"
     "menu footer";
+}
+
+.content {
+  overflow-y: scroll;
 }
 
 @media (max-width: 992px) {
@@ -45,7 +49,15 @@ export default {
   }
 }
 
-.content {
-  overflow-y: scroll;
+@media (max-width: 600px) {
+  #page {
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 60px minmax(0, 1fr) 40px;
+    grid-template-areas:
+      "header"
+      "menu"
+      "content"
+      "footer";
+  }
 }
 </style>
