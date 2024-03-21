@@ -8,6 +8,20 @@
       <hr />
       <section>
         <h3>
+          <strong>Desenvolvedor</strong> | Desenvolvedor de API (Backend), Nova
+          Web - Soluções inteligentes para novos desafios (Jul 2022 - Maio 2023)
+        </h3>
+        <p>
+          Realizei a modelagem e implementação de API's, em C#, com foco em
+          processamento, validação e indexação de dados em lote. Neste período,
+          também desenvolvi um sistema RBAC para controle desacoplado de grupos
+          e permissões. Além disso, realizei integrações de sistemas com bases
+          de dados relacionais e obtive experiência com fluxo CI/CD para
+          implementação de ambientes.
+        </p>
+      </section>
+      <section>
+        <h3>
           <strong>Estágio</strong> | Desenvolvedor de Software, AvantSec -
           Soluções de Vanguarda no Combate às Ameaças Digitais (Set 2020 - Set
           2021)
@@ -22,20 +36,6 @@
           relacionais, assim como manipulação e consulta de tabelas (SQL). Por
           fim, realizei o acompanhamento e suporte no desenvolvimento de
           aplicações WEB (HTML, CSS e JavaScript);
-        </p>
-      </section>
-      <section>
-        <h3>
-          <strong>Desenvolvedor</strong> | Desenvolvedor de API (Backend), Nova
-          Web - Soluções inteligentes para novos desafios (Jul 2022 - Maio 2023)
-        </h3>
-        <p>
-          Realizei a modelagem e implementação de API's, em C#, com foco em
-          processamento, validação e indexação de dados em lote. Neste período,
-          também desenvolvi um sistema RBAC para controle desacoplado de grupos
-          e permissões. Além disso, realizei integrações de sistemas com bases
-          de dados relacionais e obtive experiência com fluxo CI/CD para
-          implementação de ambientes.
         </p>
       </section>
     </article>
