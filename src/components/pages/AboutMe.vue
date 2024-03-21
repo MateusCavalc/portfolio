@@ -3,7 +3,7 @@
     <article>
       <div class="title">
         <font-awesome-icon icon="fa-regular fa-user" />
-        <h1>Quem sou?</h1>
+        <h1>Quem -?</h1>
       </div>
       <hr />
       <p>

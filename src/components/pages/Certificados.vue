@@ -3,7 +3,7 @@
     <article>
       <div class="title">
         <font-awesome-icon icon="certificate" />
-        <h1>Meus Cursos e Certificados</h1>
+        <h1>Meus - e Certificados</h1>
       </div>
       <hr />
       <section>
