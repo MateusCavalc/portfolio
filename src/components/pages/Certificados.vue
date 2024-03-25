@@ -57,6 +57,12 @@
           <a href="https://balta.io/certificados/f8bba388-426c-4b09-b67f-ed669c3e9331"><font-awesome-icon
               icon="arrow-up-right-from-square" /></a>
         </div>
+        <hr />
+        <div class="cert-card">
+          <h4>Certificado de Proficiência em Inglês</h4>
+          <a href="https://report.insignaconsultoria.com.br/test/insights/6be729e0-8a33-4a87-be43-af6a8edd5db9"><font-awesome-icon
+              icon="arrow-up-right-from-square" /></a>
+        </div>
       </section>
     </article>
   </div>
