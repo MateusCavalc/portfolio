@@ -50,15 +50,18 @@
             <div class="card-info col-12 col-lg-6">
               <header class="card-title">
                 <h4 class="limit-width">Dream Commerce</h4>
-                <div>
-                  <span>
-                    frontend
-                    <a href="https://github.com/MateusCavalc/dream-commerce"><font-awesome-icon
-                        icon="arrow-up-right-from-square" /></a></span>
-                  <span>
-                    backend
-                    <a href="https://github.com/MateusCavalc/dream-commerce-backend"><font-awesome-icon
-                        icon="arrow-up-right-from-square" /></a></span>
+                <div class="title-icons d-flex align-items-center">
+                  <!-- <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="d-inline-block d-lg-none" /> -->
+                  <div>
+                    <span>
+                      frontend
+                      <a href="https://github.com/MateusCavalc/dream-commerce"><font-awesome-icon
+                          icon="arrow-up-right-from-square" /></a></span>
+                    <span>
+                      backend
+                      <a href="https://github.com/MateusCavalc/dream-commerce-backend"><font-awesome-icon
+                          icon="arrow-up-right-from-square" /></a></span>
+                  </div>
                 </div>
               </header>
               <p>
@@ -528,10 +531,18 @@ article {
 }
 
 .projects .project-card .card-title div,
-.projects .project-card-no-imgs .card-title div {
+.projects .project-card .card-title .title-icons div,
+.projects .project-card-no-imgs .card-title .title-icons div {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+
+  margin-left: 15px;
+}
+
+.projects .project-card .card-title .title-icons>svg {
+  height: 28px;
+  cursor: pointer;
 }
 
 .projects .project-card .card-title a,
