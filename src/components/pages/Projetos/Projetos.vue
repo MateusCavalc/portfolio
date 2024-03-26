@@ -123,25 +123,26 @@
               <div id="dream-commerce-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded-2">
                   <div class="carousel-item active">
-                    <img src="../../assets/imgs/projects/dream-commerce/signin.png" class="d-block w-100" alt="signin">
+                    <img src="../../../assets/imgs/projects/dream-commerce/signin.png" class="d-block w-100"
+                      alt="signin">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/dream-commerce/frontpage2.png" class="d-block w-100"
+                    <img src="../../../assets/imgs/projects/dream-commerce/frontpage2.png" class="d-block w-100"
                       alt="frontpage2">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/dream-commerce/cart.png" class="d-block w-100" alt="cart">
+                    <img src="../../../assets/imgs/projects/dream-commerce/cart.png" class="d-block w-100" alt="cart">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/dream-commerce/frontpage-filter2.png" class="d-block w-100"
+                    <img src="../../../assets/imgs/projects/dream-commerce/frontpage-filter2.png" class="d-block w-100"
                       alt="frontpage-filter2">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/dream-commerce/usercrud.png" class="d-block w-100"
+                    <img src="../../../assets/imgs/projects/dream-commerce/usercrud.png" class="d-block w-100"
                       alt="usercrud">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/dream-commerce/productcrud.png" class="d-block w-100"
+                    <img src="../../../assets/imgs/projects/dream-commerce/productcrud.png" class="d-block w-100"
                       alt="productcrud">
                   </div>
                 </div>
@@ -233,16 +234,16 @@
               <div id="knowledge-base-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded-2">
                   <div class="carousel-item active">
-                    <img src="../../assets/imgs/projects/knowledge-base/login.png" class="d-block w-100" alt="login">
+                    <img src="../../../assets/imgs/projects/knowledge-base/login.png" class="d-block w-100" alt="login">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/knowledge-base/stats.png" class="d-block w-100" alt="stats">
+                    <img src="../../../assets/imgs/projects/knowledge-base/stats.png" class="d-block w-100" alt="stats">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/knowledge-base/tree.png" class="d-block w-100" alt="tree">
+                    <img src="../../../assets/imgs/projects/knowledge-base/tree.png" class="d-block w-100" alt="tree">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/knowledge-base/article.png" class="d-block w-100"
+                    <img src="../../../assets/imgs/projects/knowledge-base/article.png" class="d-block w-100"
                       alt="article">
                   </div>
                 </div>
@@ -287,13 +288,13 @@
               <div id="multiroom-chat-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded-2">
                   <div class="carousel-item active">
-                    <img src="../../assets/imgs/projects/multiroom-chat/login.png" class="d-block w-100" alt="login">
+                    <img src="../../../assets/imgs/projects/multiroom-chat/login.png" class="d-block w-100" alt="login">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/multiroom-chat/alone.png" class="d-block w-100" alt="alone">
+                    <img src="../../../assets/imgs/projects/multiroom-chat/alone.png" class="d-block w-100" alt="alone">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/multiroom-chat/group.png" class="d-block w-100" alt="group">
+                    <img src="../../../assets/imgs/projects/multiroom-chat/group.png" class="d-block w-100" alt="group">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#multiroom-chat-carousel"
@@ -364,13 +365,15 @@
               <div id="instagram-clone-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded-2">
                   <div class="carousel-item active">
-                    <img src="../../assets/imgs/projects/instagram-clone/login.png" class="d-block w-100" alt="login">
+                    <img src="../../../assets/imgs/projects/instagram-clone/login.png" class="d-block w-100"
+                      alt="login">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/instagram-clone/feed.png" class="d-block w-100" alt="feed">
+                    <img src="../../../assets/imgs/projects/instagram-clone/feed.png" class="d-block w-100" alt="feed">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/instagram-clone/upload.png" class="d-block w-100" alt="upload">
+                    <img src="../../../assets/imgs/projects/instagram-clone/upload.png" class="d-block w-100"
+                      alt="upload">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#instagram-clone-carousel"
@@ -410,20 +413,21 @@
               <div id="html-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded-2">
                   <div class="carousel-item active">
-                    <img src="../../assets/imgs/projects/html-studies/home.png" class="d-block w-100" alt="home">
+                    <img src="../../../assets/imgs/projects/html-studies/home.png" class="d-block w-100" alt="home">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/html-studies/about.png" class="d-block w-100" alt="about">
+                    <img src="../../../assets/imgs/projects/html-studies/about.png" class="d-block w-100" alt="about">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/html-studies/projects.png" class="d-block w-100"
+                    <img src="../../../assets/imgs/projects/html-studies/projects.png" class="d-block w-100"
                       alt="projects">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/html-studies/blog.png" class="d-block w-100" alt="blog">
+                    <img src="../../../assets/imgs/projects/html-studies/blog.png" class="d-block w-100" alt="blog">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../assets/imgs/projects/html-studies/contact.png" class="d-block w-100" alt="contact">
+                    <img src="../../../assets/imgs/projects/html-studies/contact.png" class="d-block w-100"
+                      alt="contact">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#html-carousel"

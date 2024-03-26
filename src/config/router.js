@@ -7,7 +7,7 @@ import aboutMe from "@/components/pages/AboutMe.vue"
 import myExp from "@/components/pages/Experiencias.vue"
 import myComp from "@/components/pages/Competencias.vue"
 import myCerts from '@/components/pages/Certificados.vue'
-import myProjects from '@/components/pages/Projetos.vue'
+import myProjects from '@/components/pages/Projetos/Projetos.vue'
 
 const routes = [{
     name: 'home',
