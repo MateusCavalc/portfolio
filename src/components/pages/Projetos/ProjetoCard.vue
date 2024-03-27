@@ -46,28 +46,8 @@
                 <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div class="carousel-inner rounded-2">
                         <div v-for='(img, i) in images ' :key="i" :class="`carousel-item ${i === 0 ? 'active' : ''}`">
-                            <img :src="img" class="d-block w-100" :alt="`image-${i}`">
+                            <img :src="getImgUrl(img)" class="d-block w-100" :alt="`image-${i}`">
                         </div>
-                        <!-- <div class="carousel-item">
-                            <img src="../../../assets/imgs/projects/dream-commerce/frontpage2.png" class="d-block w-100"
-                                alt="frontpage2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../../../assets/imgs/projects/dream-commerce/cart.png" class="d-block w-100"
-                                alt="cart">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../../../assets/imgs/projects/dream-commerce/frontpage-filter2.png"
-                                class="d-block w-100" alt="frontpage-filter2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../../../assets/imgs/projects/dream-commerce/usercrud.png" class="d-block w-100"
-                                alt="usercrud">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../../../assets/imgs/projects/dream-commerce/productcrud.png"
-                                class="d-block w-100" alt="productcrud">
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -91,6 +71,11 @@ export default {
         description: String,
         repoLinks: Array,
         images: Array
+    },
+    methods: {
+        getImgUrl: function (imagePath) {
+            return require('@/assets/imgs/projects/' + imagePath);
+        }
     }
 }
 </script>
