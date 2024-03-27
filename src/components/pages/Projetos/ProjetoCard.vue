@@ -20,7 +20,7 @@
                     <h4 class="limit-width">{{ title }}</h4>
                     <div class="title-icons d-flex align-items-center">
                         <!-- <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="d-inline-block d-lg-none" /> -->
-                        <div>
+                        <div v-if="repoLinks.length > 1">
                             <span>
                                 Frontend
                                 <a :href="repoLinks[0]"><font-awesome-icon
@@ -29,6 +29,12 @@
                                 Backend
                                 <a :href="repoLinks[1]"><font-awesome-icon
                                         icon="arrow-up-right-from-square" /></a></span>
+                        </div>
+                        <div v-else>
+                            <span>
+                                Repo
+                                <a :href="repoLinks[0]"><font-awesome-icon icon="arrow-up-right-from-square" /></a>
+                            </span>
                         </div>
                     </div>
                 </header>
