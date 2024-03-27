@@ -49,17 +49,19 @@
             </div>
             <div class="card-images d-none d-lg-inline-block col-6">
                 <!-- carousel -->
-                <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div :id="`carousel-${tag}`" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div class="carousel-inner rounded-2">
                         <div v-for='(img, i) in images ' :key="i" :class="`carousel-item ${i === 0 ? 'active' : ''}`">
                             <img :src="getImgUrl(img)" class="d-block w-100" :alt="`image-${i}`">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" :data-bs-target="`#carousel-${tag}`"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" :data-bs-target="`#carousel-${tag}`"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -72,6 +74,7 @@
 export default {
     name: "projetoCard",
     props: {
+        tag: String,
         small: Boolean,
         title: String,
         description: String,

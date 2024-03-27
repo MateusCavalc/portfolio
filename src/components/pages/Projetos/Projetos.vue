@@ -7,14 +7,14 @@
       </div>
       <hr />
       <section>
-        <projeto-card small title="Portfolio Web" :repoLinks="['https://github.com/MateusCavalc/portfolio']"
+        <projeto-card tag="port" small title="Portfolio Web" :repoLinks="['https://github.com/MateusCavalc/portfolio']"
           description="Este portfolio foi desenvolvido como um projeto cujo objetivo é
             aplicar conceitos de FrontEnd por meio do framework VueJS.">
           <font-awesome-icon icon="fa-brands fa-vuejs" />
           <font-awesome-icon icon="fa-brands fa-bootstrap" />
         </projeto-card>
-        <projeto-card small title="API de usuários" :repoLinks="['https://github.com/MateusCavalc/NestStudies']"
-          description="Implementação de uma API de usuários baseado em autenticação
+        <projeto-card tag="api-users" small title="API de usuários"
+          :repoLinks="['https://github.com/MateusCavalc/NestStudies']" description="Implementação de uma API de usuários baseado em autenticação
             JWT, integrado com uma base de dados relacional e documentado por
             meio do Swagger.">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="50" viewBox="0 0 50 50">
@@ -27,7 +27,7 @@
           <img src="@/assets/icons/swagger.svg" width="20px" />
           <font-awesome-icon icon="user-lock" />
         </projeto-card>
-        <projeto-card title="Dream Commerce"
+        <projeto-card tag="dream" title="Dream Commerce"
           :repoLinks="['https://github.com/MateusCavalc/dream-commerce', 'https://github.com/MateusCavalc/dream-commerce-backend']"
           description="Implementação de um ecossistema de E-commerce integrado ao PostgreSQL e MongoDB, com autenticação por
                 meio de JWT e documentação Swagger."
@@ -78,7 +78,7 @@
           <img src="@/assets/icons/swagger.svg" width="20px" />
           <font-awesome-icon icon="user-lock" />
         </projeto-card>
-        <projeto-card title="Base de Conhecimento"
+        <projeto-card tag="knowledge" title="Base de Conhecimento"
           :repoLinks="['https://github.com/MateusCavalc/knowledge-frontend', 'https://github.com/MateusCavalc/knowledge-backend']"
           description="Projeto destinado ao desenvolvimento de uma aplicação web completa,
                 integrada a base de dados relacionais e não-relacionais via API, e
@@ -128,19 +128,7 @@
           </svg>
           <font-awesome-icon icon="user-lock" />
         </projeto-card>
-        <projeto-card title="Multiroom Chat" :repoLinks="['https://github.com/MateusCavalc/multiroom-chat']"
-          description="Implementação de uma sala da conversa WEB utilizando EJS, Express e
-                WebSocket."
-          :images="['multiroom-chat/login.png', 'multiroom-chat/alone.png', 'multiroom-chat/group.png']">
-          <img src="@/assets/icons/ejs.svg" width="20px" />
-          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="50" viewBox="0 0 50 50">
-            <path
-              d="M49.729 11h-.85c-1.051 0-2.041.49-2.68 1.324l-8.7 11.377-8.7-11.377C28.162 11.49 27.171 11 26.121 11h-.85l10.971 14.346L25.036 40h.85c1.051 0 2.041-.49 2.679-1.324L37.5 26.992l8.935 11.684C47.073 39.51 48.063 40 49.114 40h.85L38.758 25.346 49.729 11zM21.289 34.242c-2.554 3.881-7.582 5.87-12.389 4.116C4.671 36.815 2 32.611 2 28.109L2 27h12v0h11l0-4.134c0-6.505-4.818-12.2-11.295-12.809C6.273 9.358 0 15.21 0 22.5l0 5.573c0 5.371 3.215 10.364 8.269 12.183 6.603 2.376 13.548-1.17 15.896-7.256 0 0 0 0 0 0h-.638C22.616 33 21.789 33.481 21.289 34.242zM2 22.5C2 16.71 6.71 12 12.5 12S23 16.71 23 22.5V25H2V22.5z">
-            </path>
-          </svg>
-          <img src="@/assets/icons/socketio.svg" width="20px" />
-        </projeto-card>
-        <projeto-card title="Simple instagram clone"
+        <projeto-card tag="insta" title="Simple instagram clone"
           :repoLinks="['https://github.com/MateusCavalc/instaClone-frontend', 'https://github.com/MateusCavalc/instaClone-backend']"
           description="Projeto destinado à implementação de um clone simplificado do
                 Instagram por meio do framework Express e MongoDB."
@@ -170,8 +158,20 @@
             </path>
           </svg>
         </projeto-card>
-        <projeto-card title="Implementação de Páginas" :repoLinks="['https://github.com/MateusCavalc/HTML-studies']"
-          description="Este projeto é destinado à implementação de páginas utilizando HTML,
+        <projeto-card tag="chat" title="Multiroom Chat" :repoLinks="['https://github.com/MateusCavalc/multiroom-chat']"
+          description="Implementação de uma sala da conversa WEB utilizando EJS, Express e
+                WebSocket."
+          :images="['multiroom-chat/login.png', 'multiroom-chat/alone.png', 'multiroom-chat/group.png']">
+          <img src="@/assets/icons/ejs.svg" width="20px" />
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="50" viewBox="0 0 50 50">
+            <path
+              d="M49.729 11h-.85c-1.051 0-2.041.49-2.68 1.324l-8.7 11.377-8.7-11.377C28.162 11.49 27.171 11 26.121 11h-.85l10.971 14.346L25.036 40h.85c1.051 0 2.041-.49 2.679-1.324L37.5 26.992l8.935 11.684C47.073 39.51 48.063 40 49.114 40h.85L38.758 25.346 49.729 11zM21.289 34.242c-2.554 3.881-7.582 5.87-12.389 4.116C4.671 36.815 2 32.611 2 28.109L2 27h12v0h11l0-4.134c0-6.505-4.818-12.2-11.295-12.809C6.273 9.358 0 15.21 0 22.5l0 5.573c0 5.371 3.215 10.364 8.269 12.183 6.603 2.376 13.548-1.17 15.896-7.256 0 0 0 0 0 0h-.638C22.616 33 21.789 33.481 21.289 34.242zM2 22.5C2 16.71 6.71 12 12.5 12S23 16.71 23 22.5V25H2V22.5z">
+            </path>
+          </svg>
+          <img src="@/assets/icons/socketio.svg" width="20px" />
+        </projeto-card>
+        <projeto-card tag="html" title="Implementação de Páginas"
+          :repoLinks="['https://github.com/MateusCavalc/HTML-studies']" description="Este projeto é destinado à implementação de páginas utilizando HTML,
                 CSS e JavaScript."
           :images="['html-studies/home.png', 'html-studies/about.png', 'html-studies/projects.png', 'html-studies/blog.png', 'html-studies/contact.png']">
           <font-awesome-icon icon="fa-brands fa-html5" />
