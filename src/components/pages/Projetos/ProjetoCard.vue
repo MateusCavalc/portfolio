@@ -14,12 +14,13 @@
                 </slot>
             </div>
         </div>
-        <div v-else class="row">
+        <div v-else class="row justify-content-center">
             <div class="card-info col-12 col-lg-6">
                 <header class="card-title">
                     <h4 class="limit-width">{{ title }}</h4>
                     <div class="title-icons d-flex align-items-center">
-                        <!-- <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="d-inline-block d-lg-none" /> -->
+                        <font-awesome-icon icon="fa-regular fa-image" class="d-inline-block d-lg-none"
+                            :class="{ 'showEnabled': showImages }" @click.prevent="toggleImages" />
                         <div v-if="repoLinks.length > 1">
                             <span>
                                 Frontend
@@ -47,7 +48,8 @@
                     </slot>
                 </div>
             </div>
-            <div class="card-images d-none d-lg-inline-block col-6">
+            <div
+                :class="`card-images ${showImages ? 'col-10' : 'col-6'} ${enableImages ? 'd-inline-block' : 'd-none'}`">
                 <!-- carousel -->
                 <div :id="`carousel-${tag}`" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div class="carousel-inner rounded-2">
@@ -81,11 +83,45 @@ export default {
         repoLinks: Array,
         images: Array
     },
+    data() {
+        return {
+            showImages: false,
+            windowWidth: window.innerWidth
+        }
+    },
+    computed: {
+        enableImages() {
+            return this.windowWidth > 992 || this.showImages
+        }
+    },
     methods: {
         getImgUrl: function (imagePath) {
             return require('@/assets/imgs/projects/' + imagePath);
+        },
+        toggleImages() {
+            this.showImages = !this.showImages
+        },
+        onResize() {
+            this.windowWidth = window.innerWidth
         }
+    },
+    mounted() {
+        this.$nextTick(() => {
+            window.addEventListener('resize', this.onResize);
+        })
+    },
+    beforeUnmount() {
+        window.removeEventListener('resize', this.onResize);
     }
 }
 </script>
-<style></style>
+<style>
+.projects .project-card .card-title .title-icons>svg {
+    transition-duration: 500ms;
+}
+
+.projects .project-card .card-title .title-icons>svg.showEnabled {
+    border-radius: 50px;
+    background-color: #0002;
+}
+</style>

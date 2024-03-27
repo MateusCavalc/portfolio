@@ -253,9 +253,7 @@ article {
 }
 
 .projects .project-card .card-images {
-  padding-left: 15px;
-
-  border-left: 1px solid #0005;
+  padding: 10px 15px;
 }
 
 .projects .project-card .card-title,
@@ -277,12 +275,13 @@ article {
   flex-direction: column;
   align-items: flex-end;
 
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .projects .project-card .card-title .title-icons>svg {
   height: 28px;
   cursor: pointer;
+  padding: 10px;
 }
 
 .projects .project-card .card-title a,
