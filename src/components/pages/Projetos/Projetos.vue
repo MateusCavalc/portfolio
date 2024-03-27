@@ -234,7 +234,7 @@ article {
   box-shadow: rgba(0, 0, 0, 0.75) 3px 3px 10px 0px;
 }
 
-.projects .project-card-small {
+.projects .project-card-small>div {
   grid-column: span 1;
   display: grid;
   grid-template-rows: 25% 60% 15%;
@@ -271,7 +271,6 @@ article {
   border-bottom: 1px solid #0005;
 }
 
-.projects .project-card .card-title div,
 .projects .project-card .card-title .title-icons div,
 .projects .project-card-small .card-title .title-icons div {
   display: flex;
