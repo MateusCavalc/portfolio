@@ -20,8 +20,13 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "roboto";
+  src: url('@/assets/fonts/RobotoMono.ttf')
+}
+
 #app {
-  font-family: "Lato", sans-serif;
+  font-family: "roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 

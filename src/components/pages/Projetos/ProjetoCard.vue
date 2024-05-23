@@ -124,4 +124,34 @@ export default {
     border-radius: 50px;
     background-color: #0002;
 }
+
+.projects .project-card,
+.projects .project-card-small>div {
+    transition-duration: 200ms;
+}
+
+.projects .project-card:hover,
+.projects .project-card-small:hover>div {
+    box-shadow: rgba(0, 0, 0, 0.75) 6px 9px 5px 0px;
+}
+
+.projects .project-card {
+    grid-column: span 2;
+}
+
+.projects .project-card-small>div {
+    grid-column: span 1;
+    display: grid;
+    grid-template-rows: 25% 60% 15%;
+}
+
+.projects .project-card,
+.projects .project-card-small>div {
+    padding: 10px;
+    margin: 10px;
+
+    background-color: #0001;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.75) 4px 4px 2px 0px;
+}
 </style>

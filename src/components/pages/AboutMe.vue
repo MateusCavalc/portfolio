@@ -9,21 +9,23 @@
       <p>
         Me chamo Mateus, sou formado em Engenharia de Controle e Automação pela
         Universidade de Brasília (2016-2023) e atuo profissionalmente na área de
-        programação, com foco em desenvolvimento backend. Minha jornada no
+        programação, com foco em <strong>desenvolvimento fullstack e implantação de aplicações</strong>. Minha jornada
+        no
         desenvolvimento de software começou ainda na universidade, mas foi na
         iniciativa privada onde obtive experiências práticas relevantes. Desde
         então, tenho trabalhado constantemente no aprimoramento das minhas
         habilidades técnicas, com foco na criação de sistemas eficientes,
-        escaláveis e seguros. Tenho experiência sólida em tecnologias como
-        ASP.NET e NodeJS, bem como conhecimento em ferramentas e frameworks
+        escaláveis e seguros. Possuo <strong>experiência sólida</strong> em tecnologias como
+        <strong>ASP.NET</strong> e <strong>NodeJs</strong>, bem como conhecimento em ferramentas e frameworks
         relevantes para o desenvolvimento backend e implantação de sistemas.
-        Atualmente, venho estudando frameworks como VueJS, NextJS e Angular, com
+        Atualmente, venho estudando frameworks como <strong>VueJs</strong>, <strong>NextJs</strong> e
+        <strong>Angular</strong>, com
         o objetivo de expandir minhas aplicações e construir ecossistemas mais
-        ricos, focando na implementação de padrões eficientes de projeto.
+        ricos, focando na implementação de <strong>padrões eficientes</strong> de projeto.
       </p>
       <p>
         Tirando o contexto profissional, sou uma pessoa comunicativa, proativa e
-        curiosa. Tenho um gosto particular por viagens e metas pessoais de
+        curiosa. Possuo um gosto particular por viagens e metas pessoais de
         conhecer países, pessoas e suas culturas. Desde pequeno sou apaixonado
         por música e, no tempo livre, gosto de gravar releituras de grandes
         sambas conhecidos. Além disso, sou atleta de Cheerleading competitivo e
@@ -32,6 +34,7 @@
         2022.
       </p>
       <div class="images">
+        <img class="img-fluid" src="@/assets/imgs/aboutme/suit.jpeg" alt="suit" />
         <img class="img-fluid" src="@/assets/imgs/aboutme/pan.jpeg" alt="pan" />
         <img class="img-fluid" src="@/assets/imgs/aboutme/ny.jpeg" alt="ny" />
       </div>
@@ -52,6 +55,7 @@ export default {
 
 h1 {
   margin: 0;
+  margin-left: 10px;
   padding: 0;
 }
 
@@ -100,7 +104,7 @@ article {
 }
 
 .sobremim img {
-  max-width: 45%;
+  max-width: 30%;
   height: auto;
   border-radius: 8px;
 }

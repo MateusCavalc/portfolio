@@ -223,30 +223,6 @@ article {
   grid-template-columns: 50% 50%;
 }
 
-.projects .project-card {
-  grid-column: span 2;
-
-  padding: 10px;
-  margin: 10px;
-
-  background-color: #0001;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.75) 3px 3px 10px 0px;
-}
-
-.projects .project-card-small>div {
-  grid-column: span 1;
-  display: grid;
-  grid-template-rows: 25% 60% 15%;
-
-  padding: 10px;
-  margin: 10px;
-
-  background-color: #0001;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.75) 3px 3px 10px 0px;
-}
-
 .projects .project-card .card-info {
   display: grid;
   grid-template-rows: 25% 65% 10%;
