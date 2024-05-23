@@ -36,12 +36,12 @@ git checkout gh-pages
 echo
 echo " --- remove old ./dist files --- "
 rm favicon.ico index.html || { echo 'rm files failed' ; exit 1; }
-rm -rf ./css ./img ./js || { echo 'rm folders failed' ; exit 1; }
+rm -rf ./css ./fonts ./img ./js || { echo 'rm folders failed' ; exit 1; }
 
 echo
 echo " --- copy new ./dist files --- "
 cp ./dist/favicon.ico ./dist/index.html ./ || { echo 'cp files failed' ; exit 1; }
-cp -r ./dist/css ./dist/img ./dist/js ./ || { echo 'cp folders failed' ; exit 1; }
+cp -r ./dist/css ./dist/fonts ./dist/img ./dist/js ./ || { echo 'cp folders failed' ; exit 1; }
 
 # publish in gh-pages
 echo
